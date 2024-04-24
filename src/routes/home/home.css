@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+.home-page{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.frist-part{
+    position: relative;
+    width: 100%;
+     
+}
+.welcome-header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 25px;
+}
+
+.title{
+    margin-bottom: 0;
+}
+.sub-title{
+    margin-top: 2.5px;
+}
+.home-page-image{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: center;
+}
+.welcome-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Playfair Display", serif;
+}
+.second-part{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.thaired-part{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:760px) {
+    .sub-title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    .home-page-image{
+        position: relative;
+        right: 5px;
+    }
+    .welcome-footer{
+     font-size: 14px;
+     justify-content: center;
+     align-items:flex-start;
+     position: relative;
+     right: -15px;
+    }
+}

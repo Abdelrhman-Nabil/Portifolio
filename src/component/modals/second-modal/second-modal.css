@@ -1,0 +1,88 @@
+.second-modal {
+    z-index: 100;
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 18px;
+    background-color: blue;
+    height: 500px;
+
+    
+  }
+  
+  .second-modal-header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 1rem 0.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18px;
+    border-bottom: 1px solid hsla(0, 0%, 67%, 0.733);
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+  
+  .second-modal-header h2 {
+    margin: 0.5rem;
+    width: 80%;
+  }
+  .second-closebutton{
+    display: flex;
+    position: relative;  
+    left: 80px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+  
+  .second-modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    font-size: 20px;
+    border-radius: 18px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    overflow-y: scroll;
+    height:80%;
+
+  }
+  .second-content-frist-part{
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  .second-content-second-part{
+   border-bottom: 0.8px solid hsla(0, 0%, 67%, 0.733);
+  }
+  .second-content-thired-part{
+    border-bottom: 0.8px solid rgba(192, 192, 192, 0.733);
+   }
+
+  @media screen and (max-width:760px) {
+    .second-modal{
+      width: 90%;
+      height: 530px;
+      left: 5px;
+    }
+    .second-closebutton{
+      left: 0px;
+    }
+    .second-modal-content{
+      width: 94.7%;
+    }
+    .second-content-second-part{
+      position: relative;
+      right: 20px;
+    }
+     .second-content-thired-part{
+      position: relative;
+      right: 20px;
+    }
+    .second-content-forth-part{
+      position: relative;
+      right: 20px;
+    }
+  }

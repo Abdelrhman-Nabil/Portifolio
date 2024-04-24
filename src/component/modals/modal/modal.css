@@ -1,0 +1,89 @@
+.frist-modal {
+    z-index: 100;
+    position: fixed;
+    top: 5%;
+    left: 25%;
+    width: 50%;
+    height: 400px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: 18px;
+
+    
+  }
+
+  .frist-modal-header {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    padding: 1rem 0.5rem;
+    color: rgb(0, 0, 0);
+    border-radius: 18px;
+    border-bottom: 1px solid hsla(0, 0%, 67%, 0.733);
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+}
+  
+  .frist-modal-header h2 {
+    margin: 0.5rem;
+    width: 80%;
+  }
+  .frist-closebutton{
+    display: flex;
+    position: relative;  
+    left: 80px;
+    font-size: 25px;
+    border: none;
+    cursor: pointer;
+}
+  
+  .frist-modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 0.5rem;
+    font-size: 20px;
+    border-radius: 18px;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+    overflow-y: scroll;
+    height: 100%;
+    
+
+  }
+  .frist-content-frist-part{
+    font-size: 23px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid black;
+  }
+  .frist-content-second-part{
+   border-bottom: 0.8px solid hsla(0, 0%, 67%, 0.733);
+  }
+  .frist-content-thired-part{
+    border-bottom: 0.8px solid hsla(0, 0%, 67%, 0.733);
+   }
+
+   @media screen and (max-width:760px) {
+    .frist-modal{
+      width: 90%;
+      height: 530px;
+      left: 5px;
+    }
+    .frist-closebutton{
+      left: 0px;
+    }
+    .frist-modal-content{
+      width: 94.7%;
+    }
+
+    .frist-content-second-part{
+      position: relative;
+      right: 20px;
+    }
+    .frist-content-thired-part{
+      position: relative;
+      right: 20px;
+    }
+    .frist-content-forth-part{
+      position: relative;
+      right: 20px;
+    }
+  }

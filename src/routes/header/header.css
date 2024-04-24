@@ -1,0 +1,50 @@
+.header {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    position: relative;
+    z-index: 10;
+    background-color: aliceblue;
+
+}
+.Home-button{
+    display: flex;
+    position: absolute;
+    left: 50px;
+    top: 25px;
+    cursor: pointer;
+}
+.Home-button:active{
+transform: scale(0.85);
+}
+.contact-button{
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    height: 50px;
+    width: 130px;
+}
+.contact-button button{
+    border-radius: 25px;
+    border: 2px solid hsla(0, 0%, 67%, 0.733);
+    font-size: 20px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 300;
+}
+.contact-button button:hover{
+   opacity: 0.55;
+   background-color: rgb(237, 190, 255);
+
+}
+.contact-button button:active{
+  transform: scale(0.89); 
+}
+
+@media screen and (max-width:760px) {
+    .Home-button{
+        top: 17px;
+        left: 10px;
+    }
+}
