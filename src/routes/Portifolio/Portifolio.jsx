@@ -45,7 +45,7 @@ const Portifolio = () => {
       id: 2,
       title: "Share Places",
       img: <img src="https://i.ibb.co/YQLy3q9/3.png" alt="3" border="0" />,
-      link: "https://share-places-aa9875.web.app/",
+      link: "https://share-places-an9875.web.app/",
       details:[
         'FullStack application with the MERN stack',
       [  
@@ -67,7 +67,7 @@ const Portifolio = () => {
       id: 3,
       title: "Crown Clothis",
       img: <img src="https://i.ibb.co/xg2hmS6/4.png" alt="4" border="0" />,
-      link: "https://crown-clothes-a9875.web.app/",
+      link: "https://crownclothis-a5798.web.app/",
       details:[
         'Frontend Application',
       [  
