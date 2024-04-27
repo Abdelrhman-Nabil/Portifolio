@@ -10,12 +10,12 @@ const Portifolio = () => {
       details:[
         'FullStack application with the MERN stack',
         [
-          "Application Feture:-",
+          "Application Feature:-",
           "This application can be used as a client or administrator ",
          [ "Client Side:-",
            "Add product to Wishlist .",
            "After Make Order Find it in list order .",
-           "Add Review About Proudct ."
+           "Add Review About product ."
         ],
         [
           "Administrator Side:",
