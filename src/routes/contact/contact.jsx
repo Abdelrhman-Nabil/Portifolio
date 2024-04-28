@@ -25,12 +25,6 @@ const Contact = () => {
       <div className="contact-links">
           <div class="social-icons">
             <i
-              class="fab fa-github"
-              onClick={() => {
-                window.open("https://github.com/Abdelrhman-Nabil", "_blank");
-              }}
-            ></i>
-            <i
               class="fab fa-linkedin"
               onClick={() => {
                 window.open(

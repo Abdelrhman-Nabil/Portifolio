@@ -65,9 +65,9 @@ const Portifolio = () => {
     },
     {
       id: 3,
-      title: "Crown Clothis",
+      title: "Crown Clothes",
       img: <img src="https://i.ibb.co/xg2hmS6/4.png" alt="4" border="0" />,
-      link: "https://crownclothis-a5798.web.app/",
+      link: "https://crown-2024.web.app/",
       details:[
         'Frontend Application',
       [  

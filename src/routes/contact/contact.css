@@ -180,8 +180,7 @@ svg {
         display: flex;
         flex-direction: row;
         position: relative;
-        right: 80px;
-    }
+        left: 75px;    }
 
     .send-email-button {
         height: 29px;
