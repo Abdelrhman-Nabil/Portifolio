@@ -6,7 +6,7 @@ const Portifolio = () => {
       id: 1,
       title: "Ecommerce",
       img: <img src="https://i.ibb.co/J2S8pbK/1.png" alt="1" border="0" />,
-      link: "https://ecommerce-5798an.web.app/",
+      link: "https://ecommerce-ana1.web.app",
       details:[
         'FullStack application with the MERN stack',
         [
@@ -67,7 +67,7 @@ const Portifolio = () => {
       id: 3,
       title: "Crown Clothes",
       img: <img src="https://i.ibb.co/xg2hmS6/4.png" alt="4" border="0" />,
-      link: "https://crown-2024.web.app/",
+      link: "https://crown-clothes-a3.web.app/",
       details:[
         'Frontend Application',
       [  
